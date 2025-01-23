@@ -1,0 +1,41 @@
+html,body{
+    margin: 0;
+    background-image: url(./Flux_Dev_A_delicate_handdrawninspired_background_image_for_a_w_3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.head{
+    background-color: #78909C;
+    height: 75px;;
+}
+.but{
+    width: 75px;
+    height: 50px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 1000px;
+    background-color: #eee7ce;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
